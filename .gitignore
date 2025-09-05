@@ -1,2 +1,4 @@
 venv
 __pycache__
+generated_full_25000.csv
+generated_full_25000_QR_Codes.pdf
