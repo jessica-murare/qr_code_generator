@@ -47,7 +47,7 @@ class QrCodeGeneratorApp:
 
     def select_file(self):
         self.file_path = filedialog.askopenfilename(
-            filetypes=[("CPD files", "*.cpd"), ("CSV files", "*.csv"), ("All files", "*.*")]
+            filetypes=[("CSV files", "*.csv"), ("CPD files", "*.cpd"), ("All files", "*.*")]
         )
         if self.file_path:
             self.file_label.config(text=os.path.basename(self.file_path))
